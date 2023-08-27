@@ -1,4 +1,6 @@
+using Business_Layer.Services;
 using Data_Access_Layer;
+using Data_Access_Layer.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,6 +11,8 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<RecipesDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("RecipesDbConnection")));
 
+builder.Services.AddScoped<IRecipeService, RecipeService>();
+builder.Services.AddScoped<IUserService, UserService>();
 
 var app = builder.Build();
 

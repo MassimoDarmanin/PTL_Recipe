@@ -8,12 +8,12 @@ using Data_Access_Layer.Models;
 
 namespace Business_Layer.Services
 {
-    public interface IUserRepository
+    public interface IUserService
     {
-        IEnumerable<User> GetAll();
-        User GetById(int id);
-        void Add(User user);
-        void Update(User user);
-        void Delete(int id);
+        IEnumerable<User> GetAllUsers();
+        User GetUserById(int id);
+        void AddUser(User user);
+        void UpdateUser(User user);
+        void DeleteUser(int id);
     }
 }
