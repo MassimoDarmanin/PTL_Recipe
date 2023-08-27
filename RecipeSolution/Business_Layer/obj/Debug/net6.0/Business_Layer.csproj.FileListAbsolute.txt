@@ -10,3 +10,6 @@ C:\Users\Massimo\Documents\4_XizobQedTamelProjects\VS_MVC\PTL_Recipe\RecipeSolut
 C:\Users\Massimo\Documents\4_XizobQedTamelProjects\VS_MVC\PTL_Recipe\RecipeSolution\Business_Layer\obj\Debug\net6.0\refint\Business_Layer.dll
 C:\Users\Massimo\Documents\4_XizobQedTamelProjects\VS_MVC\PTL_Recipe\RecipeSolution\Business_Layer\obj\Debug\net6.0\Business_Layer.pdb
 C:\Users\Massimo\Documents\4_XizobQedTamelProjects\VS_MVC\PTL_Recipe\RecipeSolution\Business_Layer\obj\Debug\net6.0\ref\Business_Layer.dll
+C:\Users\Massimo\Documents\4_XizobQedTamelProjects\VS_MVC\PTL_Recipe\RecipeSolution\Business_Layer\bin\Debug\net6.0\Data_Access_Layer.dll
+C:\Users\Massimo\Documents\4_XizobQedTamelProjects\VS_MVC\PTL_Recipe\RecipeSolution\Business_Layer\bin\Debug\net6.0\Data_Access_Layer.pdb
+C:\Users\Massimo\Documents\4_XizobQedTamelProjects\VS_MVC\PTL_Recipe\RecipeSolution\Business_Layer\obj\Debug\net6.0\Business_Layer.csproj.CopyComplete
